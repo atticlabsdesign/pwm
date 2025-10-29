@@ -42,7 +42,7 @@ typedef enum {
 struct pwmCh8SubChannel{
     volatile uint8_t *TCCR;
     volatile uint8_t *OCR;
-    pinId_t OCPin;
+    pinId8_t OCPin;
 };
 
 
